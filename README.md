@@ -10,8 +10,6 @@ Kick it off.
 
 To change running game details, add -console to your steam command, hit F5 when connected to server:
 
-setworldmodifier raids none
-setworldmodifier portals casual
-save
+Set server args in .env
 
 The above still allows achievements.
