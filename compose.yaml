@@ -5,7 +5,7 @@ services:
       - sys_nice
     volumes:
       - /media/ssd/valheim/worldname/config:/config
-      - /media/ssd/valheim/worldnameh/data:/opt/valheim
+      - /media/ssd/valheim/worldname/data:/opt/valheim
       - /media/ssd/valheim/worldname/backups:/backups
     ports:
       - "2456-2458:2456-2458/udp"
